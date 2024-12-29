@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Main Peach Body -->
+    <path
+        android:fillColor="#FFAA80"
+        android:pathData="M54,32 C42,32 32,42 32,54 C32,66 42,76 54,76 C66,76 76,66 76,54 C76,42 66,32 54,32 Z"/>
+    
+    <!-- Peach Highlight -->
+    <path
+        android:fillColor="#FFD5BF"
+        android:fillAlpha="0.6"
+        android:pathData="M48,38 C40,38 36,46 36,54 C36,62 40,70 48,70 C56,70 60,62 60,54 C60,46 56,38 48,38 Z"/>
+    
+    <!-- Leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,32 C54,32 52,28 54,24 C56,20 60,20 62,24 C64,28 62,32 62,32 Z"/>
+    
+    <!-- Stem -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M58,28 L58,32 C58,32 56,32 54,32 C52,32 50,32 50,32 L50,28 C50,26 54,24 54,24 C54,24 58,26 58,28 Z"/>
+    
+    <!-- Peach Texture Lines -->
+    <path
+        android:strokeColor="#FF8A65"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M40,50 Q54,60 68,50 M40,58 Q54,68 68,58"/>
+    
+    <!-- Blush -->
+    <path
+        android:fillColor="#FF8A65"
+        android:fillAlpha="0.3"
+        android:pathData="M42,52 C42,52 44,56 48,56 C52,56 54,52 54,52 M54,52 C54,52 56,56 60,56 C64,56 66,52 66,52"/>
+</vector>

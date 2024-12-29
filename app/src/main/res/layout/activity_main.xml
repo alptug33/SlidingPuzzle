@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wooden_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/moveCounterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hamle: 0"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btn2x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2x2"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn3x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x3"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn4x4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4x4"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn5x5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5x5"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/puzzleGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnShuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karıştır"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnSolve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çöz"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+</LinearLayout>
